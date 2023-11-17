@@ -57,13 +57,17 @@ We plan on releasing an open-source version of the PowerSync service. Supporting
 ### Examples and demo apps
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.co/usage/installation/app-backend-setup).
 
-:blue_heart: **Flutter**
+🟨 **Web**
+Supabase Backend:
+- [NextJS To-Do List App](https://github.com/powersync-ja/powersync-web-sdk/tree/main/demos/powersync-nextjs-demo)
+
+💙 **Flutter**
 Supabase Backend:
 - [To-Do List App](https://github.com/powersync-ja/powersync-supabase-flutter-todolist-demo)
 - [Trello Clone App](https://github.com/powersync-ja/powersync-supabase-flutter-trello-demo)
 - [Simple Chat App](https://github.com/powersync-ja/powersync-supabase-flutter-simple-chat-demo)
 
-:atom_symbol: **React Native & Expo**
+⚛️ **React Native & Expo**
 Supabase Backend:
 - [To-Do List App](https://github.com/powersync-ja/powersync-supabase-react-native-todolist-demo)
 - [PowerChat - Group Chat App](https://github.com/powersync-ja/powersync-supabase-react-native-group-chat-demo)
@@ -71,7 +75,7 @@ Supabase Backend:
 **Django Custom Backend:**
 - [To-Do List App](https://github.com/powersync-ja/powersync-django-react-native-todolist-demo)
 
-:hammer_and_wrench: **Custom Backend Example**
+🛠️ **Custom Backend Example**
 - [Django To-Do List](https://github.com/powersync-ja/powersync-django-backend-todolist-demo)
 
 ## Team
