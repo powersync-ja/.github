@@ -57,17 +57,17 @@ We plan on releasing an open-source version of the PowerSync service. Supporting
 ### Examples and demo apps
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.co/usage/installation/app-backend-setup).
 
-🟨 **Web**
+🟨 **Web** <br></br>
 Supabase Backend:
 - [NextJS To-Do List App](https://github.com/powersync-ja/powersync-web-sdk/tree/main/demos/powersync-nextjs-demo)
 
-💙 **Flutter**
+💙 **Flutter** <br></br>
 Supabase Backend:
 - [To-Do List App](https://github.com/powersync-ja/powersync-supabase-flutter-todolist-demo)
 - [Trello Clone App](https://github.com/powersync-ja/powersync-supabase-flutter-trello-demo)
 - [Simple Chat App](https://github.com/powersync-ja/powersync-supabase-flutter-simple-chat-demo)
 
-⚛️ **React Native & Expo**
+⚛️ **React Native & Expo** <br></br>
 Supabase Backend:
 - [To-Do List App](https://github.com/powersync-ja/powersync-supabase-react-native-todolist-demo)
 - [PowerChat - Group Chat App](https://github.com/powersync-ja/powersync-supabase-react-native-group-chat-demo)
