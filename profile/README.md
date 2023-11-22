@@ -55,31 +55,11 @@ Open-source, MIT license:
 - [sqlite_async](https://github.com/powersync-ja/sqlite_async.dart) — asynchronous interface for SQLite on Dart & Flutter (used by PowerSync Flutter/Dart SDK)
 
 ### Examples and demo apps
-We're constantly expanding our [list of example implementations](https://docs.powersync.com/resources/examples-demo-apps). If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.co/usage/installation/app-backend-setup).
+See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-examples)
 
-🟨 **Web (JavaScript)** 
+Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.co/usage/installation/app-backend-setup).
 
-Supabase Backend:
-- [NextJS To-Do List App](https://github.com/powersync-ja/powersync-web-sdk/tree/main/demos/powersync-nextjs-demo)
-
-💙 **Flutter**
-
-Supabase Backend:
-- [To-Do List App](https://github.com/powersync-ja/powersync-supabase-flutter-todolist-demo)
-- [Trello Clone App](https://github.com/powersync-ja/powersync-supabase-flutter-trello-demo)
-- [Simple Chat App](https://github.com/powersync-ja/powersync-supabase-flutter-simple-chat-demo)
-
-⚛️ **React Native & Expo** 
-
-Supabase Backend:
-- [To-Do List App](https://github.com/powersync-ja/powersync-supabase-react-native-todolist-demo)
-- [PowerChat - Group Chat App](https://github.com/powersync-ja/powersync-supabase-react-native-group-chat-demo)
-
-Django Custom Backend:
-- [To-Do List App](https://github.com/powersync-ja/powersync-django-react-native-todolist-demo)
-
-🛠️ **Custom Backend Examples**
-- [Django To-Do List](https://github.com/powersync-ja/powersync-django-backend-todolist-demo)
+We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
 
 ## Team
 PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner) and built by the JourneyApps engineering team.
