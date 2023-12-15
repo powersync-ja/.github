@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-<a href="https://docs.powersync.com/"><img src="https://img.shields.io/badge/status%20-%20stable%20-%20%23aa00ff"/></a>
-<a href="https://github.com/powersync-ja"><img src="https://img.shields.io/github/stars/powersync-ja?style=social"/></a>
-<a href="https://discord.gg/powersync" target="_blank"><img src="https://img.shields.io/discord/1138230179878154300?style=social&logo=discord&logoColor=%235865f2&label=Join%20Discord%20server"/></a>
-<a href="https://www.youtube.com/@powersync_" target="_blank"><img src="https://img.shields.io/youtube/channel/subscribers/UCSDdZvrZuizmc2EMBuTs2Qg?style=social&label=YouTube%20%40powersync_"/></a>
-<a href="https://twitter.com/powersync_" target="_blank"><img src="https://img.shields.io/twitter/follow/powersync_?&label=%40powersync_&style=social"/></a>
+  <a href="https://docs.powersync.com/"><img src="https://img.shields.io/badge/status%20-%20stable%20-%20%23aa00ff"/></a>
+  <a href="https://github.com/powersync-ja"><img src="https://img.shields.io/github/stars/powersync-ja?style=social"/></a>
+  <a href="https://discord.gg/powersync" target="_blank"><img src="https://img.shields.io/discord/1138230179878154300?style=social&logo=discord&logoColor=%235865f2&label=Join%20Discord%20server"/></a>
+  <a href="https://www.youtube.com/@powersync_" target="_blank"><img src="https://img.shields.io/youtube/channel/subscribers/UCSDdZvrZuizmc2EMBuTs2Qg?style=social&label=YouTube%20%40powersync_"/></a>
+  <a href="https://twitter.com/powersync_" target="_blank"><img src="https://img.shields.io/twitter/follow/powersync_?&label=%40powersync_&style=social"/></a>
 </p>
 
 <p align="center">
@@ -38,6 +38,7 @@ PowerSync currently supports Postgres with [Flutter](https://pub.dev/packages/po
 See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
 
 **Tutorials:**
+- [Building an offline-first chat app with Flutter, Supabase and PowerSync](https://www.powersync.com/blog/flutter-tutorial-building-an-offline-first-chat-app-with-supabase-and-powersync) (blog post)
 - [Building an offline-first chat app with Flutter, Supabase and PowerSync](https://youtu.be/LqJ0oix7ybQ?si=atvahziUQy-Lpakm) (video)
 - [Building an offline-first chat app with React Native, Supabase and PowerSync](https://bndkt.com/blog/2023/building-an-offline-first-chat-app-using-powersync-and-supabase) (by community member [@bndkt](https://github.com/bndkt))
 
