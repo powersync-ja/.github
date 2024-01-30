@@ -19,7 +19,7 @@
   </table>
 </p>
 
-# PowerSync: Postgres<>SQLite sync layer for your existing backend
+# PowerSync: Postgres<>SQLite bi-directional sync layer
 PowerSync keeps backend SQL databases in sync with on-device SQLite databases embedded in a client SDK. It enables real-time reactive offline-first/local-first apps that remain available even when network connectivity is poor or non-existent. 
 
 Offline-first / local-first is a paradigm where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background.
