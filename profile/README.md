@@ -24,7 +24,7 @@ PowerSync keeps backend SQL databases in sync with on-device SQLite databases em
 
 Offline-first / local-first is a paradigm where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background.
 
-PowerSync currently supports Postgres with [Flutter](https://pub.dev/packages/powersync), [React Native](https://www.npmjs.com/package/@journeyapps/powersync-sdk-react-native) and [web](https://github.com/powersync-ja/powersync-web-sdk). Additional backend database support and SDKs are [on the way](https://roadmap.powersync.com/).
+PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo) and [web](https://docs.powersync.com/client-sdk-references/js-web). Additional backend database support and SDKs are [on the way](https://roadmap.powersync.com/).
 
 
 ## Quick links
@@ -32,7 +32,7 @@ PowerSync currently supports Postgres with [Flutter](https://pub.dev/packages/po
 - [Documentation](https://docs.powersync.com/)
 - [Philosophy](https://docs.powersync.com/powersync-philosophy)
 - [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide)
-- [Example apps](https://docs.powersync.com/resources/examples-demo-apps)
+- [Demo/example apps](https://docs.powersync.com/resources/demo-apps-example-projects)
 
 ## How do I get started?
 See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
@@ -43,24 +43,26 @@ See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](h
 - [Building an offline-first chat app with React Native, Supabase and PowerSync](https://bndkt.com/blog/2023/building-an-offline-first-chat-app-using-powersync-and-supabase) (by community member [@bndkt](https://github.com/bndkt))
 
 ## Repos
-We plan on releasing an open-source version of the [PowerSync service](https://docs.powersync.com/architecture/powersync-service). Supporting self-hosting is one of the steps to get there. 
 
 ### Client SDKs
 Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
-- [React Native SDK](https://github.com/powersync-ja/powersync-react-native-sdk)
-- [Web/JS](https://github.com/powersync-ja/powersync-web-sdk)
+- [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/powersync-sdk-react-native)
+- [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/powersync-sdk-web)
 
 ### Standalone libraries
 Open-source, MIT license:
 - [sqlite_async](https://github.com/powersync-ja/sqlite_async.dart) — asynchronous interface for SQLite on Dart & Flutter (used by PowerSync Flutter/Dart SDK)
 
 ### Examples and demo apps
-See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-examples)
+See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-example-projects)
 
 Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.com/usage/installation/app-backend-setup).
 
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
+
+### PowerSync Service
+An open-source version of the [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) will be released in 2024.
 
 ## Team
 PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner) and built by the JourneyApps engineering team.
