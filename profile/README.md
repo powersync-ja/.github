@@ -24,7 +24,9 @@ PowerSync keeps backend SQL databases in sync with on-device SQLite databases em
 
 Offline-first / local-first is a paradigm where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background.
 
-PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo) and [web](https://docs.powersync.com/client-sdk-references/js-web). Additional backend database support and SDKs are [on the way](https://roadmap.powersync.com/).
+PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web) and [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (currently in open alpha). 
+
+Additional backend database support and SDKs are [on the way](https://roadmap.powersync.com/).
 
 
 ## Quick links
@@ -49,6 +51,7 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/powersync-sdk-react-native)
 - [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/powersync-sdk-web)
+- [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin) (currently in open alpha)
 
 ### Standalone libraries
 Open-source, MIT license:
