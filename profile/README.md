@@ -24,17 +24,16 @@ PowerSync keeps backend SQL databases in sync with on-device SQLite databases em
 
 Offline-first / local-first is a paradigm where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background.
 
-PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web) and [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (currently in open alpha). 
+PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web) and [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (currently in open alpha). Support for Swift is currently in private alpha.
 
 Additional backend database support and SDKs are [on the way](https://roadmap.powersync.com/).
-
 
 ## Quick links
 - [Website](https://www.powersync.com/)
 - [Documentation](https://docs.powersync.com/)
 - [Philosophy](https://docs.powersync.com/powersync-philosophy)
 - [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide)
-- [Demo/example apps](https://docs.powersync.com/resources/demo-apps-example-projects)
+- [Example/demo apps](https://docs.powersync.com/resources/demo-apps-example-projects)
 
 ## How do I get started?
 See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
@@ -49,12 +48,15 @@ See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](h
 ### Client SDKs
 Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
-- [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/powersync-sdk-react-native)
-- [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/powersync-sdk-web)
+- [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
+- [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
 - [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin) (currently in open alpha)
 
 ### Standalone libraries
-Open-source, MIT license:
+Apache 2.0 license:
+[powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — SQLite extension used by PowerSync client SDKs. Structure of the SQLite extension using Rust is inspired by cr-sqlite.
+
+MIT license:
 - [sqlite_async](https://github.com/powersync-ja/sqlite_async.dart) — asynchronous interface for SQLite on Dart & Flutter (used by PowerSync Flutter/Dart SDK)
 
 ### Examples and demo apps
@@ -65,10 +67,10 @@ Demo apps are listed under the backend they use, but you can easily wire up your
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
 
 ### PowerSync Service
-An open-source version of the [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) will be released in 2024.
+A free source-available self-hosted version of the [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) will be released in 2024.
 
 ## Team
-PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner) and built by the JourneyApps engineering team.
+PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner). Learn more about the team [here](https://www.powersync.com/team).
 
 ## Contributing
 See the [Community Code of Conduct](https://www.powersync.com/community-code-of-conduct) for our community pledge, standards, responsibilities and guidelines.
