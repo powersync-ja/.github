@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.powersync.com" target="_blank"><img src="https://github.com/powersync-ja/.github/assets/19345049/602bafa0-41ce-4cee-a432-56848c278722"/></a>
+  <a href="https://www.powersync.com" target="_blank"><img src="https://github.com/powersync-ja/.github/assets/7372448/d2538c43-c1a0-4c47-9a76-41462dba484f"/></a>
 </p>
 
 <p align="center">
@@ -67,7 +67,10 @@ Demo apps are listed under the backend they use, but you can easily wire up your
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
 
 ### PowerSync Service
-A free source-available self-hosted version of the [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) will be released in 2024.
+The [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) is available as:
+1. A cloud-based service with [pricing plans](https://www.powersync.com/pricing)
+2. A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started)
+3. A [self-hosted Enterprise Edition](https://docs.powersync.com/self-hosting/enterprise) with dedicated support plans, extra functionality and custom pricing.
 
 ## Team
 PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner). Learn more about the team [here](https://www.powersync.com/team).
