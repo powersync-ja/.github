@@ -61,6 +61,8 @@ The following deployment options are available:
 2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started)
 3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted Enterprise Edition](https://docs.powersync.com/self-hosting/enterprise) with dedicated support plans, extra functionality and custom pricing.
 
+See also: [Licensing & Terms](https://www.powersync.com/legal/overview) overview.
+
 ### Other supporting client-side libraries
 Open-source under Apache 2.0 or MIT license:
 - [powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — Rust-based SQLite extension used by PowerSync client SDKs.
