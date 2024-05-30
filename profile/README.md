@@ -20,9 +20,9 @@
 </p>
 
 # PowerSync: Postgres<>SQLite bi-directional sync layer
-PowerSync keeps backend SQL databases in sync with on-device SQLite databases embedded in a client SDK. It enables real-time reactive offline-first/local-first apps that remain available even when network connectivity is poor or non-existent. 
+PowerSync keeps backend SQL databases in sync with on-device SQLite databases embedded in a client SDK. It enables real-time reactive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent. 
 
-Offline-first / local-first is a paradigm where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background.
+[Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the offline-first paradigm.
 
 PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web) and [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (currently in open alpha). Support for Swift is currently in private alpha.
 
@@ -45,19 +45,27 @@ See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](h
 
 ## Repos
 
-### Client SDKs
+### PowerSync client SDKs
 Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
 - [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
 - [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin) (currently in open alpha)
+- Swift (coming soon) (currently in private alpha)
 
-### Standalone libraries
-Apache 2.0 license:
-[powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — SQLite extension used by PowerSync client SDKs. Structure of the SQLite extension using Rust is inspired by cr-sqlite.
+### PowerSync Service
+The [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
 
-MIT license:
-- [sqlite_async](https://github.com/powersync-ja/sqlite_async.dart) — asynchronous interface for SQLite on Dart & Flutter (used by PowerSync Flutter/Dart SDK)
+The following deployment options are available:
+1. **PowerSync Cloud**: A cloud-based service with [pricing plans](https://www.powersync.com/pricing)
+2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started)
+3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted Enterprise Edition](https://docs.powersync.com/self-hosting/enterprise) with dedicated support plans, extra functionality and custom pricing.
+
+### Other supporting client-side libraries
+Open-source under Apache 2.0 or MIT license:
+- [powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — Rust-based SQLite extension used by PowerSync client SDKs.
+- [sqlite_async.dart](https://github.com/powersync-ja/sqlite_async.dart) — SQLite library for Dart & Flutter (used by PowerSync Flutter/Dart SDK, and can also be used stand-alone)
+- [drift_sqlite_async](https://github.com/powersync-ja/drift_sqlite_async/) — ORM integration for [Drift](https://drift.simonbinder.eu/) for Dart & Flutter (usable with PowerSync Flutter/Dart SDK)
 
 ### Examples and demo apps
 See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-example-projects)
@@ -65,12 +73,6 @@ See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-
 Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.com/usage/installation/app-backend-setup).
 
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
-
-### PowerSync Service
-The [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) is available as:
-1. A cloud-based service with [pricing plans](https://www.powersync.com/pricing)
-2. A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started)
-3. A [self-hosted Enterprise Edition](https://docs.powersync.com/self-hosting/enterprise) with dedicated support plans, extra functionality and custom pricing.
 
 ## Team
 PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner). Learn more about the team [here](https://www.powersync.com/team).
