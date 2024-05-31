@@ -54,7 +54,7 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - Swift (coming soon) (currently in private alpha)
 
 ### PowerSync Service
-The [PowerSync Service](https://docs.powersync.com/architecture/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
+The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
 
 The following deployment options are available:
 1. **PowerSync Cloud**: A cloud-based service with [pricing plans](https://www.powersync.com/pricing)
