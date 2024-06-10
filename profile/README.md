@@ -13,8 +13,8 @@
 <p align="center">
   <table class="video-table">
     <tr>
+      <td><a href="https://youtu.be/MGQP3DmZG00" target="_blank"><img src="https://img.youtube.com/vi/MGQP3DmZG00/maxresdefault.jpg" style="max-width: 50%"></a></td>
       <td><a href="https://youtu.be/QQ5KcB3o-4g" target="_blank"><img src="https://img.youtube.com/vi/QQ5KcB3o-4g/maxresdefault.jpg" style="max-width: 50%"></a></td>
-      <td><a href="https://bndkt.com/blog/2023/building-an-offline-first-chat-app-using-powersync-and-supabase" target="_blank"><img width="1200" src="https://github.com/powersync-ja/.github/assets/19345049/e75e5d12-f1bf-46fe-a25e-81b862e2b83c"></a></td>
     </tr>
   </table>
 </p>
