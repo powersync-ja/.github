@@ -50,7 +50,7 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
 - [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
-- [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin) (currently in open alpha)
+- [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin) (currently in beta)
 - Swift (coming soon) (currently in private alpha)
 
 ### PowerSync Service
