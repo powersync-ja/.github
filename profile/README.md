@@ -19,14 +19,16 @@
   </table>
 </p>
 
-# PowerSync: Postgres<>SQLite bi-directional sync engine
-PowerSync keeps backend SQL databases in sync with on-device SQLite databases embedded in a client SDK. It enables real-time reactive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent. 
+# PowerSync: Backend DB <> SQLite bi-directional sync engine
+PowerSync keeps backend databases in sync with on-device SQLite databases embedded in a client SDK. It enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent. 
 
 [Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the offline-first paradigm.
 
-PowerSync currently supports Postgres with [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web) and [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (currently in open alpha). Support for Swift is currently in private alpha.
+PowerSync is designed to be backend database agnostic, and currently supports Postgres (stable) and MongoDB (alpha), with MySQL (alpha) coming soon.
 
-Additional backend database support and SDKs are [on the way](https://roadmap.powersync.com/).
+PowerSync is also designed to be client-side framework agnostic, and currently supports [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web), [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (beta) and [Swift](https://docs.powersync.com/client-sdk-references/swift) (alpha)
+
+Additional supported backend databases and client SDKs are [on our roadmap](https://roadmap.powersync.com/).
 
 ## Quick links
 - [Website](https://www.powersync.com/)
