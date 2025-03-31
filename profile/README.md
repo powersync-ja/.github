@@ -54,6 +54,8 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
 - [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin) (currently in beta)
 - [Swift](https://github.com/powersync-ja/powersync-swift) (currently in beta)
+- [.NET](https://github.com/powersync-ja/powersync-dotnet) (currently in alpha)
+- [Node.js](https://github.com/powersync-ja/powersync-js/tree/main/packages/node) (currently in alpha)
 
 ### PowerSync Service
 The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
