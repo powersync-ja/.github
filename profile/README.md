@@ -26,7 +26,7 @@ PowerSync keeps backend databases in sync with on-device SQLite databases embedd
 
 PowerSync is designed to be backend database agnostic, and currently supports Postgres (stable), MongoDB (stable), and MySQL (alpha).
 
-PowerSync is also designed to be client-side framework agnostic, and currently supports [Flutter](https://docs.powersync.com/client-sdk-references/flutter), [React Native & Expo](https://docs.powersync.com/client-sdk-references/react-native-and-expo), [web/JS](https://docs.powersync.com/client-sdk-references/js-web), [Kotlin Multiplatform](https://www.powersync.com/blog/build-local-first-kotlin-multiplatform-apps-with-powersync) (beta) and [Swift](https://docs.powersync.com/client-sdk-references/swift) (beta)
+PowerSync is also designed to be client-side framework agnostic, and provides a wide range of [client SDKs](#powersync-client-sdks).
 
 Additional supported backend databases and client SDKs are [on our roadmap](https://roadmap.powersync.com/).
 
@@ -39,11 +39,6 @@ Additional supported backend databases and client SDKs are [on our roadmap](http
 
 ## How do I get started?
 See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
-
-**Tutorials:**
-- [Building an offline-first chat app with Flutter, Supabase and PowerSync](https://www.powersync.com/blog/flutter-tutorial-building-an-offline-first-chat-app-with-supabase-and-powersync) (blog post)
-- [Building an offline-first chat app with Flutter, Supabase and PowerSync](https://youtu.be/LqJ0oix7ybQ?si=atvahziUQy-Lpakm) (video)
-- [Building an offline-first chat app with React Native, Supabase and PowerSync](https://bndkt.com/blog/2023/building-an-offline-first-chat-app-using-powersync-and-supabase) (by community member [@bndkt](https://github.com/bndkt))
 
 ## Repos
 
@@ -81,10 +76,10 @@ Demo apps are listed under the backend they use, but you can easily wire up your
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
 
 ## Team
-PowerSync was spun off from [JourneyApps](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner). Learn more about the team [here](https://www.powersync.com/team).
+PowerSync was spun off from [JourneyApps Platform](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner). Learn more about the team [here](https://www.powersync.com/team).
 
 ## Contributing
 See the [Community Code of Conduct](https://www.powersync.com/community-code-of-conduct) for our community pledge, standards, responsibilities and guidelines.
 
 ## Support
-We have an [open community Discord](https://discord.gg/powersync). Join us there for questions, help or just a friendly chat.
+We have an open community [Discord server](https://discord.gg/powersync). Join us there for questions, help or just a friendly chat.
