@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.powersync.com" target="_blank"><img src="https://github.com/powersync-ja/.github/assets/7372448/d2538c43-c1a0-4c47-9a76-41462dba484f"/></a>
+  <a href="https://www.powersync.com" target="_blank"><img src="https://github.com/user-attachments/assets/bee5c04c-3ff5-4e30-bca8-1e4abe772e7f"/></a>
 </p>
 
 <p align="center">
