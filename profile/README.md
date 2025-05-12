@@ -20,9 +20,9 @@
 </p>
 
 # PowerSync: Backend DB <> SQLite bi-directional sync engine
-PowerSync keeps backend databases in sync with on-device SQLite databases embedded in a client SDK. It enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent. 
+PowerSync keeps backend databases in sync with on-device SQLite databases embedded in a client SDK. It lets you avoid the complexities of using APIs to move app state over the network, and enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent.
 
-[Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the offline-first paradigm.
+[Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the idea of offline-first.
 
 PowerSync is designed to be backend database agnostic, and currently supports Postgres (stable), MongoDB (stable), and MySQL (alpha).
 
@@ -33,12 +33,12 @@ Additional supported backend databases and client SDKs are [on our roadmap](http
 ## Quick links
 - [Website](https://www.powersync.com/)
 - [Documentation](https://docs.powersync.com/)
-- [Philosophy](https://docs.powersync.com/powersync-philosophy)
-- [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide)
+- [Philosophy](https://docs.powersync.com/intro/powersync-philosophy)
+- [Quickstart guide](https://docs.powersync.com/installation/quickstart-guide)
 - [Example/demo apps](https://docs.powersync.com/resources/demo-apps-example-projects)
 
 ## How do I get started?
-See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
+See the [Overview](https://docs.powersync.com/) and the [Quickstart Guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
 
 ## Repos
 
@@ -46,7 +46,7 @@ See the [introduction](https://docs.powersync.com/) and the [Quickstart guide](h
 Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
-- [Web/JS](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
+- [Web/JavaScript](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
 - [Kotlin Multiplatform](https://github.com/powersync-ja/powersync-kotlin)
 - [Swift](https://github.com/powersync-ja/powersync-swift)
 - [.NET](https://github.com/powersync-ja/powersync-dotnet) (currently in alpha)
@@ -56,9 +56,9 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
 
 The following deployment options are available:
-1. **PowerSync Cloud**: A cloud-based service with [pricing plans](https://www.powersync.com/pricing)
-2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started)
-3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted Enterprise Edition](https://docs.powersync.com/self-hosting/enterprise) with dedicated support plans, extra functionality and custom pricing.
+1. **PowerSync Cloud**: A cloud-based managed service — see [pricing plans](https://www.powersync.com/pricing).
+2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started).
+3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/self-hosting/enterprise) with dedicated support, advanced features and custom pricing. See the "Self-host PowerSync" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
 
 See also: [Licensing & Terms](https://www.powersync.com/legal/overview) overview.
 
@@ -71,12 +71,12 @@ Open-source under Apache 2.0 or MIT license:
 ### Examples and demo apps
 See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-example-projects)
 
-Demo apps are listed under the backend they use, but you can easily wire up your own backend as documented [here](https://docs.powersync.com/usage/installation/app-backend-setup).
+Demo apps are listed under the backend they use, but you can easily wire up your own custom backend as documented [here](https://docs.powersync.com/usage/installation/app-backend-setup).
 
 We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
 
-## Team
-PowerSync was spun off from [JourneyApps Platform](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. PowerSync was founded by [@cahofmeyr](https://github.com/cahofmeyr) and [@rkistner](https://github.com/rkistner). Learn more about the team [here](https://www.powersync.com/team).
+## Company & Team
+PowerSync is a product of the software company [JourneyApps](https://journeyapps.com/). PowerSync was spun off from [JourneyApps Platform](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. Learn more about the company [here](https://www.powersync.com/company).
 
 ## Contributing
 See the [Community Code of Conduct](https://www.powersync.com/community-code-of-conduct) for our community pledge, standards, responsibilities and guidelines.
