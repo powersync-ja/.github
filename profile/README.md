@@ -82,5 +82,8 @@ PowerSync is a product of the software company [JourneyApps](https://journeyapps
 ## Contributing
 See the [Community Code of Conduct](https://www.powersync.com/community-code-of-conduct) for our community pledge, standards, responsibilities and guidelines.
 
+If you would like to propose new features or improvements, you can open or join discussions in the **PowerSync Service Proposals** section:
+[Submit or discuss a proposal](https://github.com/powersync-ja/powersync-service/discussions/categories/proposals)
+
 ## Support
 We have an open community [Discord server](https://discord.gg/powersync). Join us there for questions, help or just a friendly chat.
