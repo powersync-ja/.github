@@ -74,16 +74,23 @@ See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-
 
 Demo apps are listed under the backend they use, but you can easily wire up your own custom backend as documented [here](https://docs.powersync.com/usage/installation/app-backend-setup).
 
-We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync). 
+We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync).
+
+## Feature Requests & Proposals
+
+Got ideas? We'd love to hear them! Here are a couple of ways you can get involved:
+
+### Feature requests
+Have an idea for a new feature or improvement? Head over to [our public roadmap](https://roadmap.powersync.com/) to submit your suggestion or upvote existing ones.
+
+### Technical proposals
+Want to contribute technical implementation details? Join the conversations in our [PowerSync Service Proposals](https://github.com/powersync-ja/powersync-service/discussions/categories/proposals) where you can share your thoughts on existing proposals or propose new ones.
 
 ## Company & Team
 PowerSync is a product of the software company [JourneyApps](https://journeyapps.com/). PowerSync was spun off from [JourneyApps Platform](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. Learn more about the company [here](https://www.powersync.com/company).
 
 ## Contributing
 See the [Community Code of Conduct](https://www.powersync.com/community-code-of-conduct) for our community pledge, standards, responsibilities and guidelines.
-
-If you would like to propose new features or improvements, you can open or join discussions in the **PowerSync Service Proposals** section:
-[Submit or discuss a proposal](https://github.com/powersync-ja/powersync-service/discussions/categories/proposals)
 
 ## Support
 We have an open community [Discord server](https://discord.gg/powersync). Join us there for questions, help or just a friendly chat.
