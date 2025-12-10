@@ -24,7 +24,7 @@ PowerSync keeps backend databases in sync with on-device SQLite databases embedd
 
 [Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the idea of offline-first.
 
-PowerSync is designed to be backend database agnostic, and currently supports Postgres (stable), MongoDB (stable), and MySQL (alpha).
+PowerSync is designed to be backend database agnostic, and currently supports Postgres (stable), MongoDB (stable), MySQL (beta), and SQL Server (alpha).
 
 PowerSync is also designed to be client-side framework agnostic, and provides a wide range of [client SDKs](#powersync-client-sdks).
 
