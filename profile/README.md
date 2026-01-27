@@ -24,7 +24,7 @@ PowerSync keeps backend databases in sync with on-device SQLite databases embedd
 
 [Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the idea of offline-first.
 
-PowerSync is designed to be backend database agnostic, and currently supports Postgres (stable), MongoDB (stable), MySQL (beta), and SQL Server (alpha).
+PowerSync is designed to be backend database agnostic, and currently supports Postgres, MongoDB, MySQL (beta), and SQL Server (alpha).
 
 PowerSync is also designed to be client-side framework agnostic, and provides a wide range of [client SDKs](#powersync-client-sdks).
 
@@ -33,12 +33,12 @@ Additional supported backend databases and client SDKs are [on our roadmap](http
 ## Quick links
 - [Website](https://www.powersync.com/)
 - [Documentation](https://docs.powersync.com/)
-- [Philosophy](https://docs.powersync.com/intro/powersync-philosophy)
-- [Quickstart guide](https://docs.powersync.com/installation/quickstart-guide)
-- [Example/demo apps](https://docs.powersync.com/resources/demo-apps-example-projects)
+- [Setup guide](https://docs.powersync.com/intro/setup-guide)
+- [Our philosophy](https://docs.powersync.com/intro/powersync-philosophy)
+- [Example/demo apps](https://docs.powersync.com/intro/examples)
 
 ## How do I get started?
-See the [Overview](https://docs.powersync.com/) and the [Quickstart Guide](https://docs.powersync.com/usage/quickstart-guide) to get started.
+See our [Setup guide](https://docs.powersync.com/intro/setup-guide).
 
 ## Repos
 
@@ -58,8 +58,8 @@ The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is so
 
 The following deployment options are available:
 1. **PowerSync Cloud**: A cloud-based managed service — see [pricing plans](https://www.powersync.com/pricing).
-2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/self-hosting/getting-started).
-3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/self-hosting/enterprise) with dedicated support, advanced features and custom pricing. See the "Self-host PowerSync" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
+2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/intro/self-hosting).
+3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/intro/self-hosting#enterprise-self-hosted-edition) with dedicated support, advanced features and custom pricing. See the "Self-host PowerSync" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
 
 See also: [Licensing & Terms](https://www.powersync.com/legal/overview) overview.
 
@@ -68,13 +68,6 @@ Open-source under Apache 2.0 or MIT license:
 - [powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — Rust-based SQLite extension used by PowerSync client SDKs.
 - [sqlite_async.dart](https://github.com/powersync-ja/sqlite_async.dart) — SQLite library for Dart & Flutter (used by PowerSync Flutter/Dart SDK, and can also be used stand-alone)
 - [drift_sqlite_async](https://github.com/powersync-ja/drift_sqlite_async/) — ORM integration for [Drift](https://drift.simonbinder.eu/) for Dart & Flutter (usable with PowerSync Flutter/Dart SDK)
-
-### Examples and demo apps
-See here: [Demo Apps / Examples](https://docs.powersync.com/resources/demo-apps-example-projects)
-
-Demo apps are listed under the backend they use, but you can easily wire up your own custom backend as documented [here](https://docs.powersync.com/usage/installation/app-backend-setup).
-
-We're constantly expanding our list of example implementations. If you'd like to see an example currently not available, [let us know on Discord](https://discord.gg/powersync).
 
 ## Feature Requests & Proposals
 
