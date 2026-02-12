@@ -38,7 +38,7 @@ Additional supported backend databases and client SDKs are [on our roadmap](http
 - [Example/demo apps](https://docs.powersync.com/intro/examples)
 
 ## How do I get started?
-Follow our step-by-step [Setup guide](https://docs.powersync.com/intro/setup-guide).
+Follow our step-by-step [Setup Guide](https://docs.powersync.com/intro/setup-guide).
 
 ## Repos
 
