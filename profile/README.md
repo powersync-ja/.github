@@ -38,7 +38,7 @@ Additional supported backend databases and client SDKs are [on our roadmap](http
 - [Example/demo apps](https://docs.powersync.com/intro/examples)
 
 ## How do I get started?
-See our [Setup guide](https://docs.powersync.com/intro/setup-guide).
+Follow our step-by-step [Setup Guide](https://docs.powersync.com/intro/setup-guide).
 
 ## Repos
 
@@ -52,6 +52,7 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Swift](https://github.com/powersync-ja/powersync-swift)
 - [.NET](https://github.com/powersync-ja/powersync-dotnet) (currently in alpha)
 - [Node.js](https://github.com/powersync-ja/powersync-js/tree/main/packages/node) (currently in beta)
+- [Rust](https://github.com/powersync-ja/powersync-native) (currently in pre-alpha)
 
 ### PowerSync Service
 The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
@@ -67,7 +68,6 @@ See also: [Licensing & Terms](https://www.powersync.com/legal/overview) overview
 Open-source under Apache 2.0 or MIT license:
 - [powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — Rust-based SQLite extension used by PowerSync client SDKs.
 - [sqlite_async.dart](https://github.com/powersync-ja/sqlite_async.dart) — SQLite library for Dart & Flutter (used by PowerSync Flutter/Dart SDK, and can also be used stand-alone)
-- [drift_sqlite_async](https://github.com/powersync-ja/drift_sqlite_async/) — ORM integration for [Drift](https://drift.simonbinder.eu/) for Dart & Flutter (usable with PowerSync Flutter/Dart SDK)
 
 ## Feature Requests & Proposals
 
