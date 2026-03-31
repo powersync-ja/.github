@@ -48,11 +48,12 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
 - [Web/JavaScript](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
 - [Capacitor](https://github.com/powersync-ja/powersync-js/tree/main/packages/capacitor)
+- [Tauri](https://github.com/powersync-ja/powersync-js/tree/main/packages/tauri) (currently in alpha)
 - [Kotlin](https://github.com/powersync-ja/powersync-kotlin)
 - [Swift](https://github.com/powersync-ja/powersync-swift)
 - [.NET](https://github.com/powersync-ja/powersync-dotnet) (currently in beta)
 - [Node.js](https://github.com/powersync-ja/powersync-js/tree/main/packages/node) (currently in beta)
-- [Rust](https://github.com/powersync-ja/powersync-native) (currently in pre-alpha)
+- [Rust](https://github.com/powersync-ja/powersync-native) (currently in alpha)
 
 ### PowerSync Service
 The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
