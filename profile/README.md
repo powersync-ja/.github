@@ -11,13 +11,11 @@
 </p>
 
 # PowerSync: Backend DB <> SQLite bi-directional sync engine
-PowerSync keeps backend databases in sync with on-device SQLite databases embedded in a client SDK. It lets you avoid the complexities of using APIs to move app state over the network, and enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent.
+PowerSync keeps backend databases in sync with client-side embedded SQLite databases. It lets you avoid the complexities of using APIs to move state over the network, and enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent. Reads and writes in your application go to the client-side SQLite database, which automatically sync with your backend source database in the background.
 
-[Local-first is a paradigm](https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web) where your app code works directly with a client-side embedded database, which automatically syncs with a backend database in the background. It overlaps with the idea of offline-first.
+PowerSync is designed to be backend source database agnostic, and currently supports Postgres, MongoDB, MySQL, and SQL Server.
 
-PowerSync is designed to be backend database agnostic, and currently supports Postgres, MongoDB, MySQL, and SQL Server.
-
-PowerSync is also designed to be client-side framework agnostic, and provides a wide range of [client SDKs](#powersync-client-sdks).
+PowerSync is also designed to be client-side language and framework agnostic, and provides a wide range of [client SDKs](#powersync-client-sdks).
 
 Additional supported backend databases and client SDKs are [on our roadmap](https://roadmap.powersync.com/).
 
@@ -52,7 +50,7 @@ The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is so
 The following deployment options are available:
 1. **PowerSync Cloud**: A cloud-based managed service — see [pricing plans](https://www.powersync.com/pricing).
 2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/intro/self-hosting).
-3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/intro/self-hosting#enterprise-self-hosted-edition) with dedicated support, advanced features and custom pricing. See the "Self-host PowerSync" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
+3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/intro/self-hosting#enterprise-self-hosted-edition) with dedicated support, advanced features and custom pricing. See the "Self-hosting" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
 
 See also: [Licensing & Terms](https://www.powersync.com/legal/overview) overview.
 
@@ -61,7 +59,10 @@ Open-source under Apache 2.0 or MIT license:
 - [powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — Rust-based SQLite extension used by PowerSync client SDKs.
 - [sqlite_async.dart](https://github.com/powersync-ja/sqlite_async.dart) — SQLite library for Dart & Flutter (used by PowerSync Flutter/Dart SDK, and can also be used stand-alone)
 
-## Feature Requests & Proposals
+### See also
+See our [Open-Source & Source-Availability](https://powersync.com/open-source) page on our website for information on other repos.
+
+## Feature requests & proposals
 
 Got ideas? We'd love to hear them! Here are a couple of ways you can get involved:
 
@@ -69,13 +70,15 @@ Got ideas? We'd love to hear them! Here are a couple of ways you can get involve
 Have an idea for a new feature or improvement? Head over to [our public roadmap](https://roadmap.powersync.com/) to submit your suggestion or upvote existing ones.
 
 ### Technical proposals
-Want to contribute technical implementation details? Join the conversations in our [PowerSync Service Proposals](https://github.com/powersync-ja/powersync-service/discussions/categories/proposals) where you can share your thoughts on existing proposals or propose new ones.
+Want to make technical proposals? Join the conversations in our [Proposal Discussions](https://github.com/orgs/powersync-ja/discussions/categories/proposals) where you can share your thoughts on existing proposals or offer new ones.
 
-## Company & Team
-PowerSync is a product of the software company [JourneyApps](https://journeyapps.com/). PowerSync was spun off from [JourneyApps Platform](https://github.com/journeyapps-platform), a product that's been in production for over 10 years. Learn more about the company [here](https://www.powersync.com/company).
+## Company & team
+PowerSync is a product of the software company JourneyApps. Learn more about the company [here](https://www.powersync.com/company).
 
 ## Contributing
 See the [Community Code of Conduct](https://www.powersync.com/community-code-of-conduct) for our community pledge, standards, responsibilities and guidelines.
 
 ## Support
 We have an open community [Discord server](https://discord.gg/powersync). Join us there for questions, help or just a friendly chat.
+
+Email support with SLAs is available on our [paid plans](https://www.powersync.com/pricing).
