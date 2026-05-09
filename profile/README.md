@@ -10,15 +10,6 @@
   <a href="https://twitter.com/powersync_" target="_blank"><img src="https://img.shields.io/twitter/follow/powersync_?&label=%40powersync_&style=social"/></a>
 </p>
 
-<p align="center">
-  <table class="video-table">
-    <tr>
-      <td><a href="https://youtu.be/MGQP3DmZG00" target="_blank"><img src="https://img.youtube.com/vi/MGQP3DmZG00/maxresdefault.jpg" style="max-width: 50%"></a></td>
-      <td><a href="https://youtu.be/QQ5KcB3o-4g" target="_blank"><img src="https://img.youtube.com/vi/QQ5KcB3o-4g/maxresdefault.jpg" style="max-width: 50%"></a></td>
-    </tr>
-  </table>
-</p>
-
 # PowerSync: Backend DB <> SQLite bi-directional sync engine
 PowerSync keeps backend databases in sync with on-device SQLite databases embedded in a client SDK. It lets you avoid the complexities of using APIs to move app state over the network, and enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent.
 
