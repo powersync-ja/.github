@@ -36,7 +36,7 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
 - [Web/JavaScript](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
-- [Capacitor](https://github.com/powersync-ja/powersync-js/tree/main/packages/capacitor) (currently in alpha)
+- [Capacitor](https://github.com/powersync-ja/powersync-js/tree/main/packages/capacitor) (currently in beta)
 - [Tauri](https://github.com/powersync-ja/powersync-js/tree/main/packages/tauri) (currently in alpha)
 - [Node.js](https://github.com/powersync-ja/powersync-js/tree/main/packages/node) (currently in beta)
 - [Kotlin](https://github.com/powersync-ja/powersync-kotlin)
