@@ -11,7 +11,7 @@
 </p>
 
 # PowerSync: Backend DB <> SQLite bi-directional sync engine
-PowerSync keeps backend databases in sync with client-side embedded SQLite databases. It lets you avoid the complexities of using APIs to move state over the network, and enables instantly-responsive local-first & offline-first apps that remain available even when network connectivity is poor or non-existent. Reads and writes in your application go to the client-side SQLite database, which automatically sync with your backend source database in the background.
+PowerSync keeps backend databases in sync with client-side embedded SQLite databases. Changes appear across users and devices in real-time, user interactions feel instant and your app continues to work even when offline. Reads and writes in your application go to the client-side SQLite database, which automatically syncs with your backend source database in the background.
 
 PowerSync is designed to be backend source database agnostic, and currently supports Postgres, MongoDB, MySQL, and SQL Server. Experimental support for Convex is also available.
 
