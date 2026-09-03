@@ -13,7 +13,7 @@
 # PowerSync: Backend DB <> SQLite bi-directional sync engine
 PowerSync keeps backend databases in sync with client-side embedded SQLite databases. Changes appear across users and devices in real-time, user interactions feel instant and your app continues to work even when offline. Reads and writes in your application go to the client-side SQLite database, which automatically syncs with your backend source database in the background.
 
-PowerSync is designed to be backend source database agnostic, and currently supports Postgres, MongoDB, MySQL, and SQL Server. Experimental support for Convex is also available.
+PowerSync is designed to be backend source database agnostic, and currently supports Postgres, MongoDB, Azure DocumentDB, MySQL, and SQL Server. Experimental support for Convex is also available.
 
 PowerSync is also designed to be client-side language and framework agnostic, and provides a wide range of [client SDKs](#powersync-client-sdks).
 
@@ -36,12 +36,12 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
 - [Web/JavaScript](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
-- [Capacitor](https://github.com/powersync-ja/powersync-js/tree/main/packages/capacitor) (currently in beta)
+- [Capacitor](https://github.com/powersync-ja/powersync-js/tree/main/packages/capacitor)
 - [Tauri](https://github.com/powersync-ja/powersync-js/tree/main/packages/tauri) (currently in alpha)
-- [Node.js](https://github.com/powersync-ja/powersync-js/tree/main/packages/node) (currently in beta)
+- [Node.js](https://github.com/powersync-ja/powersync-js/tree/main/packages/node)
 - [Kotlin](https://github.com/powersync-ja/powersync-kotlin)
 - [Swift](https://github.com/powersync-ja/powersync-swift)
-- [.NET](https://github.com/powersync-ja/powersync-dotnet) (currently in beta)
+- [.NET](https://github.com/powersync-ja/powersync-dotnet)
 - [Rust](https://github.com/powersync-ja/powersync-native) (currently in alpha)
 
 ### PowerSync Service
