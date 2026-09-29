@@ -42,7 +42,7 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Kotlin](https://github.com/powersync-ja/powersync-kotlin)
 - [Swift](https://github.com/powersync-ja/powersync-swift)
 - [.NET](https://github.com/powersync-ja/powersync-dotnet)
-- [Rust](https://github.com/powersync-ja/powersync-native) (currently in alpha)
+- [Rust](https://github.com/powersync-ja/powersync-native)
 
 ### PowerSync Service
 The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
