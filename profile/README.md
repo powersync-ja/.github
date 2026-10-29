@@ -52,7 +52,7 @@ The following deployment options are available:
 2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/intro/self-hosting).
 3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/intro/self-hosting#enterprise-self-hosted-edition) with dedicated support, advanced features and custom pricing. See the "Self-hosting" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
 
-See also: [Licensing & Terms](https://www.powersync.com/legal/overview) overview.
+See also: [Licensing & Terms](https://www.powersync.com/legal/) overview.
 
 ### Other supporting client-side libraries
 Open-source under Apache 2.0 or MIT license:
