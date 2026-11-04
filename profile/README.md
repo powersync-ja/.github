@@ -32,7 +32,7 @@ Follow our step-by-step [Setup Guide](https://docs.powersync.com/intro/setup-gui
 ## Repos
 
 ### PowerSync client SDKs
-Client SDKs are open-source, available under the Apache 2.0 license:
+Client SDKs are open source, available under the Apache 2.0 license:
 - [Flutter/Dart SDK](https://github.com/powersync-ja/powersync.dart)
 - [React Native SDK](https://github.com/powersync-ja/powersync-js/tree/main/packages/react-native)
 - [Web/JavaScript](https://github.com/powersync-ja/powersync-js/tree/main/packages/web)
@@ -45,22 +45,22 @@ Client SDKs are open-source, available under the Apache 2.0 license:
 - [Rust](https://github.com/powersync-ja/powersync-native)
 
 ### PowerSync Service
-The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is source-available under an [FSL license](https://www.powersync.com/legal/fsl).
+The [PowerSync Service](https://github.com/powersync-ja/powersync-service) is open source under the Apache 2.0 license.
 
 The following deployment options are available:
 1. **PowerSync Cloud**: A cloud-based managed service — see [pricing plans](https://www.powersync.com/pricing).
-2. **PowerSync Open Edition**: A free [source-available self-hosted version](https://docs.powersync.com/intro/self-hosting).
+2. **PowerSync Open Edition**: A free [open-source self-hosted version](https://docs.powersync.com/intro/self-hosting).
 3. **PowerSync Enterprise Self-Hosted Edition**: A [self-hosted version](https://docs.powersync.com/intro/self-hosting#enterprise-self-hosted-edition) with dedicated support, advanced features and custom pricing. See the "Self-hosting" section on our [Pricing](https://www.powersync.com/pricing) page for more details.
 
 See also: [Licensing & Terms](https://www.powersync.com/legal/) overview.
 
 ### Other supporting client-side libraries
-Open-source under Apache 2.0 or MIT license:
+Open source under Apache 2.0 or MIT license:
 - [powersync-sqlite-core](https://github.com/powersync-ja/powersync-sqlite-core) — Rust-based SQLite extension used by PowerSync client SDKs.
 - [sqlite_async.dart](https://github.com/powersync-ja/sqlite_async.dart) — SQLite library for Dart & Flutter (used by PowerSync Flutter/Dart SDK, and can also be used stand-alone)
 
 ### See also
-See our [Open-Source & Source-Availability](https://powersync.com/open-source) page on our website for information on other repos.
+See our [Open Source](https://powersync.com/open-source) page on our website for information on other repos.
 
 ## Feature requests & proposals
 
